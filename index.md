@@ -10,7 +10,7 @@
 <li>Testar a TV</li>
 </ol>
 
-<p align="justify" Para construir algoritmos de forma que um computador entenda é necessário passar as instruções em uma linguagem que o mesmo possa "compreender". Segundo Deitel [1] existem centenas de linguagens porém as mesmas podem ser de três tipos: (a) Linguagem de máquina:; (b) Linguagem <i>Assembly</i>; e (c) Linguagem de alto nível. No caso a linguagem C é uma linguagem de alto nível.</p>
+<p align="justify">Para construir algoritmos de forma que um computador entenda é necessário passar as instruções em uma linguagem que o mesmo possa "compreender". Segundo Deitel [1] existem centenas de linguagens porém as mesmas podem ser de três tipos: (a) Linguagem de máquina:; (b) Linguagem <i>Assembly</i>; e (c) Linguagem de alto nível. No caso a linguagem C é uma linguagem de alto nível.</p>
  
 <ol type="a">
 <li>Linguagem de máquina: É a linguagem natural do computador intimamente relacionada ao <i>hardware</i>.</li>
@@ -19,7 +19,7 @@
 <li>País</li>
 </ol>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<p align="justify">O C foi desenvolvido por Dennis Ritchie em 1972 a partir de duas linguagens anteriores, o BCPL e o B.</p>
 
 ### Markdown
 
