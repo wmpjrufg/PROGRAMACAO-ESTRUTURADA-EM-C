@@ -4,10 +4,10 @@
 
 <ol>
 <li>Posicionar o fixador da TV</li>
-<li>2-Instalar o Fixador</li>
-<li>3-Instalar a TV no ficador</li>
-<li>4-Instalar os cabos</li>
-<li>5-Testar a TV</li>
+<li>Instalar o Fixador</li>
+<li>Instalar a TV no ficador</li>
+<li>Instalar os cabos</li>
+<li>Testar a TV</li>
 </ol>
  
 
