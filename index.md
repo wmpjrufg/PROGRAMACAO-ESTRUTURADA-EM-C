@@ -1,6 +1,16 @@
 ## Programação em linguagem C
 
-You can use the [editor on GitHub](https://github.com/wmpjrufg/PROGRAMACAO-ESTRUTURADA-EM-C/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<p align="justify"> Algoritmos são um conjunto de instruções que fazem sentido lógico e automatizam ou resolvem uma determinada tarefa. Por exemplo o processo de montagem de instalação de uma TV pode ser escrtio em formato de algoritmo.</p>
+
+<ol>
+<li><b>Tarefa de instalação da TV</b></li>
+<li>1-Posicionar o fixador da TV</li>
+<li>2-Instalar o Fixador</li>
+<li>3-Instalar a TV no ficador</li>
+<li>4-Instalar os cabos</li>
+<li>5-Testar a TV</li>
+</ol>
+ 
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
