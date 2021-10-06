@@ -1,6 +1,6 @@
 ## Programação em linguagem C
 
-<p align="justify"> Algoritmos são um conjunto de instruções que fazem sentido lógico e automatizam ou resolvem uma determinada tarefa. Por exemplo o processo de montagem de instalação de uma TV pode ser escrtio em formato de algoritmo.</p>
+<p align="justify"> Algoritmos são um conjunto de instruções que fazem sentido lógico, automatizam e/ou resolvem uma determinada tarefa. Por exemplo o processo de montagem de instalação de uma TV pode ser escrtio em formato de algoritmo.</p>
 
 <ol>
 <li>Posicionar o fixador da TV</li>
@@ -9,7 +9,15 @@
 <li>Instalar os cabos</li>
 <li>Testar a TV</li>
 </ol>
+
+<p align="justify" Para construir algoritmos de forma que um computador entenda é necessário passar as instruções em uma linguagem que o mesmo possa "compreender". Segundo Deitel [1] existem centenas de linguagens porém as mesmas podem ser de três tipos: (a) Linguagem de máquina:; (b) Linguagem <i>Assembly</i>; e (c) Linguagem de alto nível. No caso a linguagem C é uma linguagem de alto nível.</p>
  
+<ol type="a">
+<li>Linguagem de máquina: É a linguagem natural do computador intimamente relacionada ao <i>hardware</i>.</li>
+<li>Linguagem <i>Assembly</i>: Linguagem de baixo nível que é composta de abreviações de instruções para a máquina. Também é dependente da arquitetura da máquina.</li>
+<li>Linguagem de alto nível: É uma linguagem de fácil compreensão por seres humanos. Esta linguagem precisa ser transformada em linguagem de máquina para que o computador possa compreender.</li>
+<li>País</li>
+</ol>
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
