@@ -3,8 +3,7 @@
 <p align="justify"> Algoritmos são um conjunto de instruções que fazem sentido lógico e automatizam ou resolvem uma determinada tarefa. Por exemplo o processo de montagem de instalação de uma TV pode ser escrtio em formato de algoritmo.</p>
 
 <ol>
-<li><b>Tarefa de instalação da TV</b></li>
-<li>1-Posicionar o fixador da TV</li>
+<li>Posicionar o fixador da TV</li>
 <li>2-Instalar o Fixador</li>
 <li>3-Instalar a TV no ficador</li>
 <li>4-Instalar os cabos</li>
