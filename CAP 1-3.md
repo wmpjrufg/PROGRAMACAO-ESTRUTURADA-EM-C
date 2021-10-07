@@ -14,20 +14,21 @@
 
 <p align="justify">Agora vamos criar um algoritmo que converte a temperatura de graus <i>Celsius</i> para graus <i>Fahrenheit</i>.</p>
 
-$$ {J(\theta) =\frac{1}{2m} [\sum^m_{i=1}(h_\theta(x^{(i)}) - y^{(i)})2 + \lambda\sum^n_{j=1}\theta^2_j} $$
-
-<p align="justify">Caso seja necessário colocar algum comentário no seu primeiro programa utilize a sintaxe <font face="Courier New"><b>//</b></font> ou sintaxe <font face="Courier New"><b>/* ... */</b></font>. Vejamos o exemplo abaixo:</p>
+$$ T_°F =\frac{9 . T_°F}{5} +32 $$
 
 ```C
 #include <stdio.h>
 
 main()
 {
-    /* Linha de comentário em bloco
-    Veja que todos os comentários estão no bloco
-    */
-    
-    // Linha de comentário
-    printf("Oi mundo!");
+    // Declarando as variáveis como float
+    float CELSIUS, FAHRENHEIT;
+    // Solicitando a digitação da temperatura em Celsius
+    printf("Digite a temperatura em Celsius (°C): ");
+    scanf("%f" , &CELSIUS);
+    // Conversão
+    FAHRENHEIT = (CELSIUS * 9 / 5) + 32;
+    printf("\n A Temperatura em %.2f °C corresponde a temperatura de %.2f °F\n", CELSIUS, FAHRENHEIT);
 }
 ```
+<p align="justify">Veja que neste exemplo empregamos a função <font face="Courier New"><b>scanf</b></font> que é utilizada para leitura de um dado digitado via teclado pelo usuário. Perceba que a sintaxe para leitura de um float <font face="Courier New"><b>%f</b></font>.</p>
