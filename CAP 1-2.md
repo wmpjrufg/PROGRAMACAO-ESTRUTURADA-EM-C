@@ -1,6 +1,6 @@
 ## O primeiro programa em C
 
-<p align="justify">O primeiro programa será a construção do <b>Hello World</b>. Para escrever isso em tela vamos empregar a função print que existe em diversas linguagens, no C especificamente está função possui a seguinte sintaxe: <font size="2" face="Verdana">printf</font>. Para construir este programa vamos emprega a biblioteca padrão da linguagem C <b><i>stdio.h (standard input-output header)</i></b> <i>(standard input-output header)</i>. Portanto o programa ficará no seguinte formato:</p>
+<p align="justify">O primeiro programa será a construção do <b>Hello World</b>. Para escrever isso em tela vamos empregar a função print que existe em diversas linguagens, no C especificamente está função possui a seguinte sintaxe: <font size="2" face="Verdana">printf</font>. Para construir este programa vamos emprega a biblioteca padrão da linguagem C <b><i>stdio.h</i></b> <i>(standard input-output header)</i>. Portanto o programa ficará no seguinte formato:</p>
 
 ```C
 #include <stdio.h>
