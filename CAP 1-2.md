@@ -10,4 +10,4 @@ main()
     printf("Hello, World!");
 }
 ```
-<p align="justify">A sintaxe <font face="Courier New"><b>main(){...}</b></font> representa uma função principal na linguagem C. Esta função controla o funcionamento do algoritmo.</p>
+<p align="justify">A sintaxe <font face="Courier New"><b>main(){...}</b></font> representa uma função principal na linguagem C. Esta função controla o funcionamento de um determinado algoritmo.</p>
