@@ -31,4 +31,26 @@ main()
     printf("\n A Temperatura em %.2f °C corresponde a temperatura de %.2f °F\n", CELSIUS, FAHRENHEIT);
 }
 ```
+
 <p align="justify">Veja que neste exemplo empregamos a função <font face="Courier New"><b>scanf</b></font> que é utilizada para leitura de um dado digitado via teclado pelo usuário. Perceba que a sintaxe para leitura de um float <font face="Courier New"><b>%f</b></font>. Além disso a variável é atribuída na variável <font face="Courier New"><b>CELSIUS</b></font> através da sintaxe <font face="Courier New"><b>&CELSIUS</b></font>.</p>
+
+### Outras particularidas de variáveis e a função main()
+
+<p align="justify">Existem outras particularidades em relação a função <font face="Courier New"><b>main()</b></font> ou funções em geral. Por exemplo é possível utilizar dentro da função <font face="Courier New"><b>main()</b></font> a instrução <font face="Courier New"><b>return</b></font>. Esta instrução ela encerra uma determina função e retorna o controle a função de chamada. Além disso essa instrução pode devolver também um determinado valor na linha de comando, vejamos o exemplo da soma de dois números digitados pelo usuário. Perceba que ao compilar o algoritmo aprecerá na tela o valor da soma.</p>
+
+```C
+#include <stdio.h>
+
+int main()
+{
+    int A, B, C;
+    printf("Digite o valor de A: ");
+    scanf("%d", &A);
+    printf("\n");
+    printf("Digite o valor de B: ");
+    scanf("%d", &B);
+    C = A + B;
+    return C;
+}
+```
+<p align="justify">Percebam que antes da sintaxe <code>main</code> colocamos a instrução <code>int</code>. Esta instrução permite que você retorne como saída qualquer valor inteiro.</p>
