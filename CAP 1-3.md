@@ -54,3 +54,21 @@ int main()
 }
 ```
 <p align="justify">Percebam que antes da sintaxe <code>main</code> colocamos a instrução <code>int</code>. Esta instrução permite que você retorne como saída qualquer valor inteiro.</p>
+
+<p align="justify">Outra possibilidade interessante é a criação de alguns valores que são constantes na função. Por exemplo uma função para calcular o valor total de imposto a ser pago a partir de um salário. Imaginemos uma alíquota fixa de 27.5%.</p>
+
+```C
+#include <stdio.h>
+
+main()
+{
+    float ALIQ = 27.5;
+    float IMPOSTO, SALARIO;
+    printf("Digite o valor do salário: ");
+    scanf("%f", &SALARIO);
+    printf("\n");
+    IMPOSTO = SALARIO * (ALIQ / 100);
+    return IMPOSTO;
+}
+```
+<p align="justify">Caso deseja uma função que não retorne nenhum valor utilize a instrução <code>void main()</code>.</p>
