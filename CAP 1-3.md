@@ -31,4 +31,4 @@ main()
     printf("\n A Temperatura em %.2f °C corresponde a temperatura de %.2f °F\n", CELSIUS, FAHRENHEIT);
 }
 ```
-<p align="justify">Veja que neste exemplo empregamos a função <font face="Courier New"><b>scanf</b></font> que é utilizada para leitura de um dado digitado via teclado pelo usuário. Perceba que a sintaxe para leitura de um float <font face="Courier New"><b>%f</b></font>.</p>
+<p align="justify">Veja que neste exemplo empregamos a função <font face="Courier New"><b>scanf</b></font> que é utilizada para leitura de um dado digitado via teclado pelo usuário. Perceba que a sintaxe para leitura de um float <font face="Courier New"><b>%f</b></font>. Além disso a variável é atribuída na variável <font face="Courier New"><b>CELSIUS</b></font> através da sintaxe <font face="Courier New"><b>&CELSIUS</b></font>.</p>
