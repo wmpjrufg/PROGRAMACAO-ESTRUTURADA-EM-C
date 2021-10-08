@@ -32,11 +32,11 @@ main()
 }
 ```
 
-<p align="justify">Veja que neste exemplo empregamos a função <font face="Courier New"><b>scanf</b></font> que é utilizada para leitura de um dado digitado via teclado pelo usuário. Perceba que a sintaxe para leitura de um float <font face="Courier New"><b>%f</b></font>. Além disso a variável é atribuída na variável <font face="Courier New"><b>CELSIUS</b></font> através da sintaxe <font face="Courier New"><b>&CELSIUS</b></font>.</p>
+<p align="justify">Veja que neste exemplo empregamos a função <code>scanf</code> que é utilizada para leitura de um dado digitado via teclado pelo usuário. Perceba que a sintaxe para leitura de um float <code>%f</code>. Além disso a variável é atribuída na variável <code>CELSIUS</code> através da sintaxe <code>&CELSIUS</code>.</p>
 
 ### Outras particularidas de variáveis e a função main()
 
-<p align="justify">Existem outras particularidades em relação a função <font face="Courier New"><b>main()</b></font> ou funções em geral. Por exemplo é possível utilizar dentro da função <font face="Courier New"><b>main()</b></font> a instrução <font face="Courier New"><b>return</b></font>. Esta instrução ela encerra uma determina função e retorna o controle a função de chamada. Além disso essa instrução pode devolver também um determinado valor na linha de comando, vejamos o exemplo da soma de dois números digitados pelo usuário. Perceba que ao compilar o algoritmo aprecerá na tela o valor da soma.</p>
+<p align="justify">Existem outras particularidades em relação a função <code>main</code> ou funções em geral. Por exemplo é possível utilizar dentro da função <code>main</code> a instrução <code>return</code>. Esta instrução ela encerra uma determina função e retorna o controle a função de chamada. Além disso essa instrução pode devolver também um determinado valor na linha de comando, vejamos o exemplo da soma de dois números digitados pelo usuário. Perceba que ao compilar o algoritmo aprecerá na tela o valor da soma.</p>
 
 ```C
 #include <stdio.h>
