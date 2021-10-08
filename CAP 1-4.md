@@ -4,60 +4,119 @@
 
 <p align="justify">A linguagem C possui as mesmas características de operadores aprendidos na disciplina de algoritmos e programação de computadores. Portanto veremos agora os modelos para aplicação desses operadores na linguagem C.</p>
 
-## Operações aritméticas
+### Operadores aritméticos
 
-```C
-#include <stdio.h>
+<p align="justify">Os operadores aritméticos pode ser visto na tabela abaixo:</p>
 
-main()
-{
-    // Declarando as variáveis como float
-    float CELSIUS, FAHRENHEIT;
-    // Solicitando a digitação da temperatura em Celsius
-    printf("Digite a temperatura em Celsius (°C): ");
-    scanf("%f" , &CELSIUS);
-    // Conversão
-    FAHRENHEIT = (CELSIUS * 9 / 5) + 32;
-    printf("\n A Temperatura em %.2f °C corresponde a temperatura de %.2f °F\n", CELSIUS, FAHRENHEIT);
-}
-```
-<p align="justify">Veja que neste exemplo empregamos a função <code>scanf</code> que é utilizada para leitura de um dado digitado via teclado pelo usuário. Perceba que a sintaxe para leitura de um float <code>%f</code>. Além disso a variável é atribuída na variável <code>CELSIUS</code> através da sintaxe <code>&CELSIUS</code>.</p>
+<table>
+<thead>
+  <tr>
+    <th>Operador</th>
+    <th>Descrição</th>
+    <th>Prioridade</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>+</td>
+    <td>Mais unário</td>
+    <td>0 <br></td>
+  </tr>
+  <tr>
+    <td>-</td>
+    <td>Menos unário</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td>++</td>
+    <td>Incremento</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>--</td>
+    <td>Decremento</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>*</td>
+    <td>Multiplicação</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>/</td>
+    <td>Divisão</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>%</td>
+    <td>Resto da divisão</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>+</td>
+    <td>Soma</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>-</td>
+    <td>Subtração</td>
+    <td>3</td>
+  </tr>
+</tbody>
+</table>
 
-### Outras particularidas de variáveis e a função main()
+### Operadores relacioanais
 
-<p align="justify">Existem outras particularidades em relação a função <code>main</code> ou funções em geral. Por exemplo é possível utilizar dentro da função <code>main</code> a instrução <code>return</code>. Esta instrução ela encerra uma determina função e retorna o controle a função de chamada. Além disso essa instrução pode devolver também um determinado valor na linha de comando, vejamos o exemplo da soma de dois números digitados pelo usuário. Perceba que ao compilar o algoritmo aprecerá na tela o valor da soma.</p>
+<p align="justify">Os operadores relacioanais pode ser visto na tabela abaixo:</p>
 
-```C
-#include <stdio.h>
+<table>
+<thead>
+  <tr>
+    <th>Operador</th>
+    <th>Descrição</th>
+    <th>Prioridade</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>&gt;=</td>
+    <td>Maior ou igual a</td>
+    <td>0 <br></td>
+  </tr>
+  <tr>
+    <td>&gt;</td>
+    <td>Maior que</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td>&lt;=</td>
+    <td>Menor ou igual a</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td>&lt;</td>
+    <td>Menor que</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td>==</td>
+    <td>Igual a</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>!=</td>
+    <td>Diferente de</td>
+    <td>2</td>
+  </tr>
+</tbody>
+</table>
 
-int main()
-{
-    int A, B, C;
-    printf("Digite o valor de A: ");
-    scanf("%d", &A);
-    printf("\n");
-    printf("Digite o valor de B: ");
-    scanf("%d", &B);
-    C = A + B;
-    return C;
-}
-```
-<p align="justify">Percebam que antes da sintaxe <code>main</code> colocamos a instrução <code>int</code>. Esta instrução permite que você retorne como saída qualquer valor inteiro.</p>
+### Operadores lógicos
 
-<p align="justify">Outra possibilidade interessante é a criação de alguns valores que são constantes na função. Por exemplo uma função para calcular o valor total de imposto a ser pago a partir de um salário. Imaginemos uma alíquota fixa de 27.5%.</p>
+<p align="justify">Estes operadores definem como as relações podem ser conectadas, são três as possibilidades:</p>
 
-```C
-#include <stdio.h>
-
-main()
-{
-    float ALIQ = 27.5;
-    float IMPOSTO, SALARIO;
-    printf("Digite o valor do salário: ");
-    scanf("%f", &SALARIO);
-    printf("\n");
-    IMPOSTO = SALARIO * (ALIQ / 100);
-    return IMPOSTO;
-}
-```
-<p align="justify">Caso deseja uma função que não retorne nenhum valor utilize a instrução <code>void main()</code>.</p>
+<ol>
+    <li><code>&&</code> - Conjunção</li>
+    <li><code>||</code> - Disjunção</li>
+    <li><code>!</code> - Negação</li>
+<ol>
