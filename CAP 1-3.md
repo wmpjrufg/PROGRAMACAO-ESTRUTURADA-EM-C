@@ -14,7 +14,7 @@
 
 <p align="justify">Agora vamos criar um algoritmo que converte a temperatura de graus <i>Celsius</i> para graus <i>Fahrenheit</i>.</p>
 
-$$ T_°F =\frac{9 . T_°F}{5} +32 $$
+$$ T_{°F} =\frac{9 . T_{°C}}{5} +32 $$
 
 ```C
 #include <stdio.h>
