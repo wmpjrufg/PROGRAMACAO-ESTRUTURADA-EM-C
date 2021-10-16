@@ -65,6 +65,38 @@
 </tbody>
 </table>
 
+<p align="justify">A seguir fazemos aplicações de alguns operadores para montagem de uma calculadora simplificada. Além disso utilizamos o conceito de conversão forçada (ou <i>cast</i>). Este conceito serve paraq fazer uma conversão de variáveis para determinados tipos. No exemplo a seguir declararemos dois números inteiros e necessitamos que o resultado seja apresentado em ponto flutuante. Para isso utilizamos uma conversão com sintaxe do tipo <code>(conversao) expressão</code> para converter um resultado em <b>inteiro</b> para resultado em <b>ponto flutuante</b>. Perceba na execução do código que você testa a operação <code>MODULO = X / Y</code> sem a conversão para <b>ponto flutuante</b> o resultado apresentado não estará correto. </p>
+
+```C
+#include <stdio.h>
+
+void main ()
+{
+    // Declarando as variáveis
+    int X, Y, SOMA, SUBTRACAO;
+    float MODULO, DIVISAO, MULTIPLICACAO;
+
+    X = 69;
+    Y = 24;
+
+    // Fazendo as operações
+    SOMA = X + Y;
+    SUBTRACAO = X - Y;
+
+    // Usando a conversão de linguguagem (ou casting)
+    DIVISAO = (float) X / Y;
+    MULTIPLICACAO = X * Y;
+    MODULO = X % Y;
+
+    // Impressões
+    printf("%d + %d = %d \n", X, Y, SOMA);
+    printf("%d - %d = %d \n", X, Y, SUBTRACAO);
+    printf("%d / %d = %f \n", X, Y, DIVISAO);
+    printf("%d * %d = %f \n", X, Y, MULTIPLICACAO);
+    printf("%d mod %d = %f \n", X, Y, MODULO);
+}
+```
+
 ### Operadores relacioanais
 
 <p align="justify">Os operadores relacioanais pode ser visto na tabela abaixo:</p>
