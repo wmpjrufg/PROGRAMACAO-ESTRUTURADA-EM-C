@@ -221,7 +221,7 @@ void main ()
   <tr>
     <th>p</th>
     <th>q</th>
-    <th>p^q</th>
+    <th>p ^ q</th>
   </tr>
 </thead>
 <tbody>
@@ -246,7 +246,7 @@ void main ()
     <td>F</td>
   </tr>
 </tbody>
-</table>  
+</table>
 
 <br>
 
