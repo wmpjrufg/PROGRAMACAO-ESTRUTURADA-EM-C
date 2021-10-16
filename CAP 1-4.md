@@ -284,7 +284,7 @@ void main ()
 
 <p align="justify">Abaixo podem ser vistos exemplos de aplicações dos operadores lógicos.</p>
   
-```C
+```c
 #include <stdio.h>
 
 void main ()
