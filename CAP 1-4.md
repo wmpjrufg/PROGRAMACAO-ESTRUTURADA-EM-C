@@ -67,7 +67,7 @@
 
 <p align="justify">A seguir fazemos aplicações de alguns operadores para montagem de uma calculadora simplificada. Além disso utilizamos o conceito de conversão forçada (ou <i>cast</i>). Este conceito serve paraq fazer uma conversão de variáveis para determinados tipos. No exemplo a seguir declararemos dois números inteiros e necessitamos que o resultado seja apresentado em ponto flutuante. Para isso utilizamos uma conversão com sintaxe do tipo <code>(conversao) expressão</code> para converter um resultado em <b>inteiro</b> para resultado em <b>ponto flutuante</b>. Perceba na execução do código que você testa a operação <code>MODULO = X / Y</code> sem a conversão para <b>ponto flutuante</b> o resultado apresentado não estará correto. </p>
 
-```C
+```c
 #include <stdio.h>
 
 void main ()
@@ -99,7 +99,7 @@ void main ()
 
 <p align="justify">A seguir são apresentados dos incrementos e decrementos. O incremento pode ser pós ou pré-fixado. A diferença entre eles é que o pré-fixado incrementa a variável para depois executar a instrução e o pós-fixado executa a instrução para depois fazer o incremento da variável. Vejamos o exemplo prático:</p>
 
-```C
+```c
 #include <stdio.h>
 
 void main ()
@@ -175,7 +175,7 @@ void main ()
 
 <p align="justify">Abaixo podem ser vistos exemplos de operadores relacionais. O retorno inteiro <b>1</b> é do tipo verdadeiro e o retorno inteiro <b>0</b> é do tipo falso.</p>
 
-```C
+```c
 #include <stdio.h>
 
 void main ()
