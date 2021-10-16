@@ -248,6 +248,8 @@ void main ()
 </tbody>
 </table>  
 
+<br>
+
 <table>
 <thead>
   <tr>
