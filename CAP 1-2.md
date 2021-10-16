@@ -19,7 +19,8 @@ main()
 
 main()
 {
-    /* Linha de comentário em bloco
+    /* 
+    Linha de comentário em bloco
     Veja que todos os comentários estão no bloco
     */
     
