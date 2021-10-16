@@ -97,6 +97,36 @@ void main ()
 }
 ```
 
+<p align="justify">A seguir são apresentados dos incrementos e decrementos. O incremento pode ser pós ou pré-fixado. A diferença entre eles é que o pré-fixado incrementa a variável para depois executar a instrução e o pós-fixado executa a instrução para depois fazer o incremento da variável. Vejamos o exemplo prático:</p>
+
+```C
+#include <stdio.h>
+
+void main ()
+{
+    // Declarando as variáveis
+    int X, Y, M, N;
+
+    // Digitação do valor desejado para instrução pré-fixada
+    printf("Digite o inteiro desejado: ");
+    scanf("%d", &X);
+    printf("\n");
+
+    Y = ++X;
+    printf("X = %d \n", X);
+    printf("Y = %d \n", Y);
+
+    // Digitação do valor desejado para instrução pós-fixada
+    printf("\nDigite o inteiro desejado: ");
+    scanf("%d", &M);
+    printf("\n");
+
+    N = M++;
+    printf("M = %d \n", M);
+    printf("N = %d \n", N);
+}
+```
+
 ### Operadores relacioanais
 
 <p align="justify">Os operadores relacioanais pode ser visto na tabela abaixo:</p>
@@ -143,6 +173,37 @@ void main ()
 </tbody>
 </table>
 
+<p align="justify">Abaixo podem ser vistos exemplos de operadores relacionais. O retorno inteiro <b>1</b> é do tipo verdadeiro e o retorno inteiro <b>0</b> é do tipo falso.</p>
+
+```C
+#include <stdio.h>
+
+void main ()
+{
+    // Declarando as variáveis
+    int X, Y;
+
+    // Digitação dos valores desejados
+    printf("Digite o inteiro X desejado: ");
+    scanf("%d", &X);
+    printf("\n");
+    printf("Digite o inteiro Y desejado: ");
+    scanf("%d", &Y);
+    printf("\n");
+
+    printf("X = %d \n", X);
+    printf("Y = %d \n", Y);
+
+    // Operações relacionais em C
+    printf("\n Exemplo 1: X > Y: %d", X > Y);
+    printf("\n Exemplo 2: X < Y: %d", X < Y);
+    printf("\n Exemplo 3: X == Y: %d", X == Y);
+    printf("\n Exemplo 4: X != Y: %d", X != Y);
+    printf("\n Exemplo 5: X >= Y: %d", X >= Y);
+    printf("\n Exemplo 6: X <= Y: %d\n", X <= Y);
+}
+```
+
 ### Operadores lógicos
 
 <p align="justify">Estes operadores definem como as relações podem ser conectadas, são três as possibilidades:</p>
@@ -151,4 +212,65 @@ void main ()
     <li><code>&&</code> - Conjunção</li>
     <li><code>||</code> - Disjunção</li>
     <li><code>!</code> - Negação</li>
-<ol>
+</ol>
+  
+<p align="justify">Abaixo podem ser vistos exemplos da tabela verdade para os operadores lógicos de conjunção (<b>^</b>) e disjunção (<b>v</b>):</p>
+
+<table>
+<thead>
+  <tr>
+    <th>p</th>
+    <th>q</th>
+    <th>p^q</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>V</td>
+    <td>V</td>
+    <td>V</td>
+  </tr>
+  <tr>
+    <td>V</td>
+    <td>F</td>
+    <td>F</td>
+  </tr>
+  <tr>
+    <td>F</td>
+    <td>V</td>
+    <td>F</td>
+  </tr>
+  <tr>
+    <td>F</td>
+    <td>F</td>
+    <td>F</td>
+  </tr>
+</tbody>
+</table>  
+
+<p align="justify">Abaixo podem ser vistos exemplos de aplicações dos operadores lógicos.</p>
+  
+```C
+#include <stdio.h>
+
+void main ()
+{
+    // Declarando as variáveis
+    int X, Y;
+
+    // Digitação dos valores desejados
+    printf("Digite o inteiro X desejado: ");
+    scanf("%d", &X);
+    printf("\n");
+    printf("Digite o inteiro Y desejado: ");
+    scanf("%d", &Y);
+    printf("\n");
+
+    printf("X = %d \n", X);
+    printf("Y = %d \n", Y);
+
+    // Operações lógicas em C
+    printf("\n Exemplo 1: X OR Y: %d", X > Y || X < Y);
+    printf("\n Exemplo 1: X AND Y: %d\n", X > Y && X >= Y);
+}
+```
