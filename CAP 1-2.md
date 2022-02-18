@@ -1,6 +1,6 @@
 ## O primeiro programa em C
 
-<p align="justify">O primeiro programa será a construção do <b>Oi mundo</b>. Para escrever isso em tela vamos empregar a função de impresão existente em diversas linguagens, no C especificamente está função possui a seguinte sintaxe: <code>printf</code>. Para construir este programa vamos emprega a biblioteca padrão da linguagem C <code>stdio.h</code> <i>(standard input-output header)</i>. Portanto o programa ficará no seguinte formato:</p>
+<p align="justify">O primeiro programa será a construção do <b>Oi mundo</b>. Para escrever isso em tela vamos empregar a função de impresão existente em diversas linguagens, no C especificamente está função possui a seguinte sintaxe: <code>printf</code>. Para construir este programa vamos empregar a biblioteca padrão da linguagem C <code>stdio.h</code> <i>(standard input-output header)</i>. Portanto o programa ficará no seguinte formato:</p>
 
 ```c
 #include <stdio.h>
@@ -10,7 +10,7 @@ main()
     printf("Oi mundo!");
 }
 ```
-<p align="justify">A sintaxe <code>main()</code> representa uma função principal (<i>entry point</i>) na linguagem C. Esta função controla o funcionamento de um determinado algoritmo.</p>
+<p align="justify">A sintaxe <code>main()</code> representa uma função principal (<i>entry point</i>) na linguagem C. Esta função controla o funcionamento de um determinado algoritmo. Neste caso o bloco de código deverá ficar entre as chaves (<code>{# Aqui código}</code>).</p>
 
 <p align="justify">Caso seja necessário colocar algum comentário no seu primeiro programa utilize a sintaxe <code>//</code> ou sintaxe <code>/*     */</code>. Vejamos o exemplo abaixo:</p>
 
