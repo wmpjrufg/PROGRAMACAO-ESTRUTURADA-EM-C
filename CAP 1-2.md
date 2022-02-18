@@ -10,7 +10,7 @@ main()
     printf("Oi mundo!");
 }
 ```
-<p align="justify">A sintaxe <code>main()</code> representa uma função principal (<i>entry point</i>) na linguagem C. Esta função controla o funcionamento de um determinado algoritmo. Neste caso o bloco de código deverá ficar entre as chaves (<code>main(){# Aqui código}</code>).</p>
+<p align="justify">A sintaxe <code>main()</code> representa uma função principal (<i>entry point</i>) na linguagem C. Esta função controla o funcionamento de um determinado algoritmo. Neste caso o bloco de código deverá ficar entre as chaves (<code>main(){// Aqui bloco de código}</code>).</p>
 
 <p align="justify">Caso seja necessário colocar algum comentário no seu primeiro programa utilize a sintaxe <code>//</code> ou sintaxe <code>/*     */</code>. Vejamos o exemplo abaixo:</p>
 
