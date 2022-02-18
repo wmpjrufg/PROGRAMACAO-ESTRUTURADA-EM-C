@@ -2,7 +2,7 @@
 
 ## Operações aritméticas, lógicas e relacionais no C 
 
-<p align="justify">A linguagem C possui as mesmas características de operadores aprendidos na disciplina de algoritmos e programação de computadores. Portanto veremos agora os modelos para aplicação desses operadores na linguagem C.</p>
+<p align="justify">A linguagem C possui as mesmas características de operadores vistos na disciplina de algoritmos e programação de computadores. Portanto veremos agora os modelos para aplicação desses operadores na linguagem C.</p>
 
 ### Operadores aritméticos
 
