@@ -3,7 +3,7 @@
 <p align="justify">O primeiro programa será a construção do <b>Oi mundo</b>. Para escrever isso em tela vamos empregar a função de impresão existente em diversas linguagens, no C especificamente está função possui a seguinte sintaxe: <code>printf</code>. Para construir este programa vamos empregar a biblioteca padrão da linguagem C <code>stdio.h</code> <i>(standard input-output header)</i>. Portanto o programa ficará no seguinte formato:</p>
 
 ```c
-// ex: HELLO_WORD_01.c
+// ex.: HELLO_WORD_01.c
 #include <stdio.h>
 
 main()
@@ -16,7 +16,7 @@ main()
 <p align="justify">Caso seja necessário colocar algum comentário no seu primeiro programa utilize a sintaxe <code>//</code> ou sintaxe <code>/*     */</code>. Vejamos o exemplo abaixo:</p>
 
 ```c
-// ex: HELLO_WORD_02.c
+// ex.: HELLO_WORD_02.c
 #include <stdio.h>
 
 main()
@@ -33,7 +33,7 @@ main()
 <p align="justify">Outra sintaxe interessante é a quebra de linha na função de impressão (<code>\n</code>). Isto permitirá que o usuário faça uma quebra de linha quando fizer a impressão. Veja o exemplo:</p>
 
 ```c
-// ex: HELLO_WORD_03.c
+// ex.: HELLO_WORD_03.c
 #include <stdio.h>
 
 main()
