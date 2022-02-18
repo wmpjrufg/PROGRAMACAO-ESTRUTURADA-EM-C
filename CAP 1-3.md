@@ -17,6 +17,7 @@
 $$ T_{°F} =\frac{9 . T_{°C}}{5} +32 $$
 
 ```c
+// ex.: TEMPERATURA.c
 #include <stdio.h>
 
 main()
