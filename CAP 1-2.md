@@ -33,7 +33,7 @@ main()
 <p align="justify">Outra sintaxe interessante é a quebra de linha na função de impressão (<code>\n</code>). Isto permitirá que o usuário faça uma quebra de linha quando fizer a impressão. Veja o exemplo:</p>
 
 ```c
-// ex.: 2000-003_TEMPERATURA_HELLO_WORD.c
+// ex.: 2000-003_HELLO_WORD.c
 #include <stdio.h>
 
 main()
