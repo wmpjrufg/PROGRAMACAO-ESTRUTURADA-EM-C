@@ -17,7 +17,7 @@
 $$ T_{°F} =\frac{9 . T_{°C}}{5} +32 $$
 
 ```c
-// ex.: TEMPERATURA.c
+// ex.: 3000-000_TEMPERATURA.c
 #include <stdio.h>
 
 main()
@@ -40,6 +40,7 @@ main()
 <p align="justify">Existem outras particularidades em relação a função <code>main</code> ou funções em geral. Por exemplo é possível utilizar dentro da função <code>main</code> a instrução <code>return</code>. Esta instrução ela encerra uma determina função e retorna o controle a função de chamada. Além disso essa instrução pode devolver também um determinado valor na linha de comando, vejamos o exemplo da soma de dois números digitados pelo usuário. Perceba que ao compilar o algoritmo aprecerá na tela o valor da soma.</p>
 
 ```c
+// ex.: 3000-100_SOMA.c
 #include <stdio.h>
 
 int main()
