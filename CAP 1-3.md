@@ -74,4 +74,4 @@ main()
     return IMPOSTO;
 }
 ```
-<p align="justify">Caso deseja uma função que não retorne nenhum valor utilize a instrução <code>void main()</code>.</p>
+<p align="justify">Caso deseja que uma função não retorne nenhum valor, utilize a instrução <code>void main()</code>.</p>
