@@ -2,7 +2,7 @@
 
 ## As variáveis no C
 
-<p align="justify">As variáveis são espaços na memória do computador onde o usuário poderá armazenar um dado. Não entraremos no mérito de como a arquitetura do computador funciona em relação a linguagem por equanto. São exemplos de variáveis na linguagem C:</p>
+<p align="justify">As variáveis são espaços na memória do computador onde o usuário poderá armazenar uma informação. Não entraremos no mérito de como a arquitetura do computador funciona em relação a linguagem por enquanto. São exemplos de variáveis na linguagem C:</p>
 
 <ol type="a">
 <li><p align="justify">char: Guarda um caracter;</p></li>
@@ -37,7 +37,7 @@ main()
 
 ### Outras particularidas de variáveis e a função main()
 
-<p align="justify">Existem outras particularidades em relação a função <code>main</code> ou funções em geral. Por exemplo é possível utilizar dentro da função <code>main</code> a instrução <code>return</code>. Esta instrução ela encerra uma determina função e retorna o controle a função de chamada. Além disso essa instrução pode devolver também um determinado valor na linha de comando, vejamos o exemplo da soma de dois números digitados pelo usuário. Perceba que ao compilar o algoritmo aprecerá na tela o valor da soma.</p>
+<p align="justify">Existem outras particularidades em relação a função <code>main</code> ou funções em geral. Por exemplo é possível utilizar dentro da função <code>main</code> a instrução <code>return</code>. Esta instrução ela encerra uma determina função e retorna o controle a função de chamada. Além disso essa instrução pode devolver também um determinado valor na linha de comando, vejamos o exemplo da soma de dois números digitados pelo usuário. Perceba que ao executar o algoritmo o valor da soma aparecerá na linha de comando.</p>
 
 ```c
 // ex.: 3000-001_SOMA.c
@@ -57,9 +57,10 @@ int main()
 ```
 <p align="justify">Percebam que antes da sintaxe <code>main</code> colocamos a instrução <code>int</code>. Esta instrução permite que você retorne como saída qualquer valor inteiro.</p>
 
-<p align="justify">Outra possibilidade interessante é a criação de alguns valores que são constantes na função. Por exemplo uma função para calcular o valor total de imposto a ser pago a partir de um salário. Imaginemos uma alíquota fixa de 27.5%.</p>
+<p align="justify">Outra possibilidade interessante é a criação de de constantes na função. Por exemplo uma função para calcular o valor total de imposto a ser pago a partir de um salário. Imaginemos uma alíquota fixa de 27.5%.</p>
 
 ```c
+// ex.: 3000-002_IMPOSTO.c
 #include <stdio.h>
 
 main()
