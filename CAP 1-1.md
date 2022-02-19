@@ -22,4 +22,4 @@
 
 <p align="justify">A programação estruturada é um paradigma de programação onde os algoritmos podem ser dividos em três estruturas básicas: (a) sequência; (b) Iteração; e (c) decisão. Pode-se afirmar que a maiora dos estudantes aprende programação sobre a ótica deste paradigma.</p>
 
-<p align="justify">Para executar os algoritmos vamos utilizar o ambiente gratuito <a target="_blank" href="https://www.codeblocks.org"><b>Code::Blocks</b></a>. ECom esta IDE (<i>Integrated Development Environment</i> ou Ambiente de Desenvolvimento Integrado) é possível executar algoritmos em diversas linguagens como <code>C++</code> e <code>FORTRAN</code>.</p>
+<p align="justify">Para executar os algoritmos vamos utilizar o ambiente gratuito <a href="https://www.codeblocks.org" target="_blank"><b>Code::Blocks</b></a>. Com esta IDE (<i>Integrated Development Environment</i> ou Ambiente de Desenvolvimento Integrado) é possível executar algoritmos em diversas linguagens como <code>C++</code> e <code>FORTRAN</code>.</p>
