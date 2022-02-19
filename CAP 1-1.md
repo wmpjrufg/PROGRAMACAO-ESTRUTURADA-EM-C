@@ -21,3 +21,5 @@
 <p align="justify">A linguagem C foi desenvolvida por Dennis Ritchie em 1972 a partir de duas linguagens anteriores, o BCPL e o B. Mesmo tendo sido desenvolvida na década de 70 a linguagem C possui uma grande importância no mundo da computação. O desenvolvimento dos primeiros sistemas operacionais utilizados em computadores foram baseados na linguagem C, como por exemplo o sistema operacional UNIX [2].</p>
 
 <p align="justify">A programação estruturada é um paradigma de programação onde os algoritmos podem ser dividos em três estruturas básicas: (a) sequência; (b) Iteração; e (c) decisão. Pode-se afirmar que a maiora dos estudantes aprende programação sobre a ótica deste paradigma.</p>
+
+<p align="justify">Para executar os algoritmos vamos utilizar o ambiente gratuito <a target="_blank" href="https://www.codeblocks.org"><b>Code::Blocks</b></a>. ECom esta IDE (<i>Integrated Development Environment</i> ou Ambiente de Desenvolvimento Integrado) é possível executar algoritmos em diversas linguagens como <code>C++</code> e <code>FORTRAN</code>.</p>
